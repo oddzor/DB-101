@@ -1,0 +1,69 @@
+html {
+    height: 70vh;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Verdana;
+    border-style:dashed;
+}
+
+header img { 
+    border-style:dashed;
+}
+
+#handslogo {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 10px;
+    left: 10px;
+}
+
+header nav {
+    text-transform: uppercase;
+    display: inline;
+    border-style:dashed;
+}
+
+li { 
+    display: inline;
+    border-style:dashed;
+}
+
+main {
+    border-style: dashed;
+}
+
+#contentbox {
+    width: auto;
+    border-style: solid;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+#box1 {
+    border-style: solid;
+    border-color: red;
+}
+
+#box2 {
+    border-style: solid;
+    border-color: green;
+}
+
+#box3 {
+    border-style: solid;
+    border-color: blue;
+}
