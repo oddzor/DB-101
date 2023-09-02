@@ -22,14 +22,6 @@ header img {
     border-style:dashed;
 }
 
-#handslogo {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    top: 10px;
-    left: 10px;
-}
-
 header nav {
     text-transform: uppercase;
     display: inline;
