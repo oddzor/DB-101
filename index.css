@@ -1,5 +1,5 @@
 html {
-    height: 70vh;
+    height: 100vh;
     width: 1000px;
     margin-left: auto;
     margin-right: auto
@@ -7,6 +7,8 @@ html {
 
 img {
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -37,7 +39,7 @@ main {
     border-style: dashed;
 }
 
-#contentbox {
+#flexbox {
     width: auto;
     border-style: solid;
     display: flex;
@@ -45,17 +47,62 @@ main {
     justify-content: center;
 }
 
-#box1 {
+#flexbox1 {
     border-style: solid;
     border-color: red;
 }
 
-#box2 {
+#flexbox2 {
     border-style: solid;
     border-color: green;
 }
 
-#box3 {
+#flexbox3 {
     border-style: solid;
     border-color: blue;
+}
+
+#gridbox {
+    width: auto;
+    border-style: solid;
+    display: inline-grid;
+    
+}
+
+#gridbox1 {
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+#gridbox2 {
+    border-style: solid;
+    border-color:chartreuse;
+}
+#gridbox3 {
+    border-style: solid;
+    border-color: orangered
+
+}
+#gridbox4 {
+    border-style: solid;
+    border-color:deeppink;
+}
+aside {
+    
+    padding-right: 15px;
+    margin-right: 0px;
+    position:relative;
+    float:right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+section {
+ border-style: dashed;
+ border-color:slateblue;
+}
+
+footer { 
+    border-style: dotted;
+    border-color:magenta
 }
