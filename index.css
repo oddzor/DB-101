@@ -87,19 +87,18 @@ main {
     border-style: solid;
     border-color:deeppink;
 }
-aside {
-    
-    padding-right: 15px;
-    margin-right: 0px;
-    position:relative;
-    float:right;
-    font-style: italic;
-    background-color: lightgray;
-}
 
 section {
  border-style: dashed;
  border-color:slateblue;
+}
+
+aside { 
+    top: 0px;
+    
+    position:absolute;
+    font-style: italic;
+    background-color: lightgray;
 }
 
 footer { 
