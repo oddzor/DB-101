@@ -1,0 +1,115 @@
+html {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  height: 150vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Verdana;
+  border-style: solid;
+}
+
+header {
+  background-color: lightgray;
+}
+
+header img {
+  border-style: dashed;
+}
+
+header nav {
+  text-transform: uppercase;
+  display: inline;
+  border-style: dashed;
+  position: sticky, top;
+}
+
+li {
+  display: inline;
+}
+
+main {
+  border-style: solid;
+}
+
+#flexbox {
+  width: auto;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#flexbox1 {
+  padding: 3px;
+  background-color: rgb(255, 61, 61);
+}
+
+#flexbox2 {
+  padding: 3px;
+  background-color: rgb(1, 253, 47);
+}
+
+#flexbox3 {
+  padding: 3px;
+  background-color: rgb(38, 0, 255);
+}
+
+#gridbox {
+  display: inline-grid;
+  width: auto;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  background-color: aqua;
+}
+
+#gridbox1 {
+  
+  border-style: solid;
+  border-color: darkgreen;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#gridbox2 {
+  border-style: solid;
+  border-color: chartreuse;
+  margin-bottom: 10px;
+}
+#gridbox3 {
+  border-style: solid;
+  border-color: orangered;
+  margin-bottom: 10px;
+}
+#gridbox4 {
+  border-style: solid;
+  border-color: deeppink;
+  margin-bottom: 10px;
+}
+
+aside {
+  position: relative;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+section {
+  border-style: dashed;
+  border-color: slateblue;
+}
+
+footer {
+  border-style: dotted;
+  border-color: magenta;
+}
