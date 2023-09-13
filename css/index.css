@@ -47,7 +47,6 @@ main {
   border-style: solid;
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 #flexbox1 {
@@ -67,6 +66,10 @@ main {
 
 #gridbox {
   display: inline-grid;
+  grid-template-areas:
+    "gridbox1 gridbox1 gridbox1 gridbox1"
+    "gridbox 2 gridbox2 . gridbox3"
+    "gridbox3 gridbox3 gridbox4 gridbox4";
   width: auto;
   border-style: solid;
   border-color: rgb(0, 0, 0);
@@ -74,7 +77,6 @@ main {
 }
 
 #gridbox1 {
-  
   border-style: solid;
   border-color: darkgreen;
   margin-top: 10px;
